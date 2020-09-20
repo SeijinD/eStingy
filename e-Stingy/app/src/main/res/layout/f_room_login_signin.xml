@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment.Room.F_Room_Login_Signin"
+    android:background="@drawable/welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--Add toolbar_layout -->
+<!--    <include layout="@layout/toolbar_layout"></include>-->
+
+    <!--Logo -->
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="380dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo" />
+
+    <!--Slogan -->
+    <TextView
+        android:id="@+id/app_slogan"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:text="Find, Choose and Buy everything online!"
+        android:textColor="@color/white2"
+        android:textSize="25sp"
+        android:textStyle="bold|italic" />
+
+    <!--Login and signin buttons-->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/signin_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Sign-in"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

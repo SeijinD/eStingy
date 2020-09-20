@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/purple1</item>
+        <item name="colorPrimaryDark">@color/purple2</item>
+        <item name="colorAccent">@color/blue1</item>
+    </style>
+
+    <!--Style for NavigationViewStyle DrawerLayout-->
+    <style name="NavigationViewStyle">
+        <item name="android:textSize">30sp</item> <!-- menu item text size-->
+    </style>
+
+    <dimen name="design_navigation_icon_size" tools:override="true">60dp</dimen>
+
+</resources>

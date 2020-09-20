@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".Fragment.Room.F_Room_Query">
+
+    <Button
+        android:id="@+id/query_all_users_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="All Users"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/query_all_products_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="All Products"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/query_all_sales_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="All Sales"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/query_all_sales_per_product_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="All Sales Per Product"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

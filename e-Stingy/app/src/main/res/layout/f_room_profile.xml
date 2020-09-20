@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".Fragment.Room.F_Room_Profile">
+
+    <TextView
+        android:id="@+id/view_username_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Username: "
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/view_name_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Name: "
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/view_surname_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Surname: "
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/view_phone_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Phone: "
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/view_email_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Email: "
+        android:textStyle="bold|italic" />
+    <TextView
+        android:id="@+id/view_type_user"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:text="Type: "
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/update_profile_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Change Profile"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/delete_profile_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Account"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

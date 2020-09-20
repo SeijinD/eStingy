@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white2"
+    tools:context=".Fragment.Room.F_Room_Sales">
+
+    <Button
+        android:id="@+id/add_sale_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Add Sale"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/update_sale_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Update Sale"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/delete_sale_button"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Delete Sale"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

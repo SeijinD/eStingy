@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">e-Stingy</string>
+    <string-array name="products_category">
+        <item>T-Shirts</item>
+        <item>Pants</item>
+        <item>Hats</item>
+        <item>Shoes</item>
+        <item>Bags</item>
+        <item>Underclothes</item>
+        <item>Coats</item>
+        <item>Skirts</item>
+        <item>Dresses</item>
+        <item>Accessories</item>
+    </string-array>
+</resources>
